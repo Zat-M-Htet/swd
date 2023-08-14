@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap-icons/font/bootstrap-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+
+    <style>
+      .img-slide {
+        display: block;
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+        object-position: center;
+      }
+
+      .text-box {
+        height: 250px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="p-3">
+      <div class="position-relative">
+        <div id="slideshow" class="carousel slide">
+          <!-- <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#slideshow"
+            data-bs-slide-to="0"
+            aria-current="true"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#slideshow"
+            data-bs-slide-to="1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#slideshow"
+            data-bs-slide-to="2"
+            class="active"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#slideshow"
+            data-bs-slide-to="3"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#slideshow"
+            data-bs-slide-to="4"
+          ></button>
+        </div> -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="./images/desktop-wallpaper-zhao-lusi-updates-赵露思-a-lil-corner-of-the-internet-dedicated-to-chinese-actress-zhao-lusi-♡-updates-pics-translations-and-more.jpg"
+                class="img-slide"
+              />
+            </div>
+            <div class="carousel-item">
+              <img src="./images/Zhao-Lusi-1.jpg" class="img-slide" />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./images/desktop-wallpaper-my-bby-zhao-lusi-thumbnail.jpg"
+                class="img-slide"
+              />
+            </div>
+            <div class="carousel-item">
+              <img src="./images/download-1.jpg" class="img-slide" />
+            </div>
+            <div class="carousel-item">
+              <img src="./images/zaho luci 2.jpeg" class="img-slide" />
+            </div>
+          </div>
+          <!-- <button
+          class="carousel-control-prev "
+          type="button"
+          data-bs-target="#slideshow"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next "
+          type="button"
+          data-bs-target="#slideshow"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button> -->
+        </div>
+
+        <button
+          data-bs-target="#slideshow"
+          data-bs-slide="prev"
+          class="btn btn-primary position-absolute top-50 start-0 translate-middle-y"
+        >
+          <i class="bi bi-arrow-left"></i>
+        </button>
+        <button
+          data-bs-target="#slideshow"
+          data-bs-slide="next"
+          class="btn btn-primary position-absolute top-50 end-0 translate-middle-y"
+        >
+          <i class="bi bi-arrow-right"></i>
+        </button>
+      </div>
+    </div>
+
+   
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="text-box bg-primary text-white p-5">
+              <h1>Heading 1</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Aspernatur, blanditiis.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="text-box bg-warning text-white p-5">
+              <h1>Heading 2</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Aspernatur, blanditiis.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="text-box bg-success text-white p-5">
+              <h1>Heading 3</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Aspernatur, blanditiis.
+              </p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

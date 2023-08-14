@@ -1,0 +1,35 @@
+.h-400px {
+  width: 400px; 
+  height: 400px;
+}
+
+body {
+  height: 3000px;
+}
+
+div{
+    position: relative;
+    /* width: 400px; */
+}
+
+div img:nth-child(1) {
+  position: absolute;
+  /* top,right,bottom,left */
+  left: 0px;
+  right: 0px;
+  margin: auto;
+  bottom: 0px;
+  top: 0px;
+  /* z-index: 30; */
+}
+
+/* div img:nth-child(2) {
+  position: absolute;
+  z-index: 20;
+  width: 250px;
+}
+div img:nth-child(3) {
+  position: absolute;
+  z-index: 10;
+  width: 300px;
+} */
