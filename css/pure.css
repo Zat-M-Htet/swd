@@ -1,0 +1,45 @@
+body{
+    background:#eee;
+}
+
+.my-dropdown-content{
+    display: none;
+}
+
+.my-dropdown-btn:focus + .my-dropdown-content{
+    display: block;
+}
+
+.counter{
+    counter-reset: select;
+}
+
+.counter p::before {
+    counter-increment: select ;
+    content: counter(select) ". ";
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* box-shadow: 10px 10px; */
+    filter: drop-shadow(-5px 5px 5px green);
+}
+
+.img{
+    width: 250px;
+}
+
+.para{
+    columns: 300px 3;
+    text-align: justify;
+    column-rule: 1px solid red;
+    column-gap: 50px;
+}
+
+.fill{
+    column-span: all;
+    margin-top: 10px;
+}

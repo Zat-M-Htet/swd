@@ -1,0 +1,31 @@
+@keyframes h1Ani {
+  0% {
+    transform: translate(0);
+  }
+  25% {
+    transform: translate(70px, 0);
+    color: red;
+    font-size: 3rem;
+  }
+  50% {
+    transform: translate(70px, 70px);
+    font-size: 4em;
+  }
+  75% {
+    transform: translate(0px, 70px);
+    color: gold;
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+
+h1 {
+  /* animation-name: h1Ani; */
+  /* animation-duration: 5s; */
+  /* animation-delay: 2s; */
+  /* animation-iteration-count: 3; */
+  /* animation-timing-function: ease; */
+  /* animation-direction: alternate; */
+  animation: h1Ani 3s linear 3 normal;
+}
